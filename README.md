@@ -35,3 +35,5 @@ Now I need one function that will calculate date for all of the frequencies opti
 
 ->
 end
+
+p.s. Check fpSolution.ts, utilities.ts and main.ts, firstTry.ts - the solution I wrote on the previous week

@@ -37,7 +37,7 @@ function* pillsDayGen(startIndex: number, weekDaysObj: IWeekDays): Generator<boo
 
 /*
     That's quite confusing, but this function returns a function that returns a generator
-    I done this so I can create few generators with the same arguments. Example:
+    I did this so I can create few generators with the same arguments. Example:
         const daysObj = {monday: true, tuesday: false, wednesday: false...}
         const provider = provideDayStateProvider(0, daysObj);
         const nextDay1 = provider();

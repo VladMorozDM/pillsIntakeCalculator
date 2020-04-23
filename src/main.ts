@@ -47,6 +47,8 @@ console.log(
 );
 console.log('-------------------------------------------------------');
 console.log(
-    calculateIntakeEndDate(myIntakes, 10, 'weekly', createDays([0,0,0,0,0,0,0]))
+    calculateIntakeEndDate(myIntakes, 10, 'weekly', createDays([1,0,0,0,0,0,0]))
 );
 console.log('-------------------------------------------------------');
+
+console.log(createDays([1,0,1,0,1,0,1]));

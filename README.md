@@ -20,14 +20,16 @@ But wait, it's not really optional if we have selected 'weekly' frequency.
 Now I need one function that will calculate date for all of the frequency options.
 
 2. Calculation algorithm goes like that:
-decide whether or not we subtracting pills from stock for the first day
-->
-make action depending on the previous step (subtract or just pass value further
--> 
-calculate how many pills goes for a day
--> 
-keep subtracting that amount from stock, untill you have nothing left, whike counting every time you subtracted pills
--> 
-take counted value and create a new date + counted value
+
+-> decide whether or not we subtracting pills from stock for the first day
+
+-> make action depending on the previous step (subtract or just pass value further
+
+-> calculate how many pills goes for a day
+
+-> keep subtracting that amount from stock, untill you have nothing left, whike counting every time you subtracted pills
+
+-> take counted value and create a new date + counted value
+
 ->
 end

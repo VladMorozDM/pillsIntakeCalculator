@@ -25,7 +25,7 @@ const subtractTheFirstDay = (date: Date) => (intakes: IIntake[]) => (stock: numb
     return stock - pillsForTheFirstDay;
 };
 
-// this function does most of the work, it starts to iterate weekDays from a given number and
+// this function does most of the work, it starts to iterate weekDays from a given index and
 // subtracts daily sum of pills
 const calculateDays = (createProvider: generator0<boolean>) => (intakes: IIntake[]) => (stock: number) => {
     const pillDaysStates = createProvider();

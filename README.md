@@ -13,11 +13,11 @@ Well, for starter I think that function calculateIntakeEndDate(intakes, stock, f
 has a bit overloaded interface. In addition it has optional argument weekDays.
 But wait, it's not really optional if we have selected 'weekly' frequency.
 
-1. I decided to always work with weekDays. In order to achiev that I made a funtion that returns(consider it is a monday today):
+1. I decided to always work with weekDays. In order to achiev that I made a funtion that returns(assuming today is a monday):
 { monday: true, tuesday: false, wednesday: true, thursday: false, friday: true, saturday: false, sunday: true } - for the 'eachOtherDay' freqeuncy and 
 { monday: true, tuesday: true, wednesday: true, thursday: true, friday: true, saturday: true, sunday: true } - for the 'daily'
 
-Now I need one function that will calculate date for all of the frequency options.
+Now I need one function that will calculate date for all of the frequencies options.
 
 2. Calculation algorithm goes like that:
 

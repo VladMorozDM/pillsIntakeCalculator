@@ -3,7 +3,7 @@
 To run a project after cloning you need to follow this steps:
 1. npm install
 2. npm install -g ts-node - If you don't have it, or
-npm install -D ts-node - if you don't ant ot global
+npm install -D ts-node - if you don't want it globaly
 3. ts-node src/main.ts
 (I assume you have node already installed)
 

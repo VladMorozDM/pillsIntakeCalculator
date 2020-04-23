@@ -25,7 +25,7 @@ Now I need one function that will calculate date for all of the frequencies opti
 
 -> decide whether or not we subtracting pills from stock for the first day
 
--> make action depending on the previous step (subtract or just pass value further
+-> make action depending on the previous step (subtract or just pass the value further)
 
 -> calculate how many pills goes for a day
 
@@ -33,7 +33,6 @@ Now I need one function that will calculate date for all of the frequencies opti
 
 -> take counted value and create a new date + counted value
 
-->
-end
+-> end
 
 p.s. Check fpSolution.ts, utilities.ts and main.ts, firstTry.ts - the solution I wrote on the previous week

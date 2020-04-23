@@ -45,8 +45,9 @@ const calculateDays = (createProvider: generator0<boolean>) => (intakes: IIntake
 }
 
 // no much to say abot this function, it receives date and a amount of days and returns new Date object
-const getDate = (date: Date) => (days: number) =>
-    new Date(date.getFullYear(), date.getMonth(), date.getDate() + days, 12);
+const getDate = (date: Date) => (days: number) => {
+    return new Date(date.getFullYear(), date.getMonth(), date.getDate() + days, 12);
+};
 
 export function calculateFp(intakes: IIntake[], stock: number, weekDays: IWeekDays): string | Date {
     const date = new Date();

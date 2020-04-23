@@ -61,7 +61,7 @@ export function calculateFp(intakes: IIntake[], stock: number, weekDays: IWeekDa
 
     const isSubtractingFirstDay = weekDays[currentDay];
     // this is for the 'weekly' frequency, if today were a monday and {monday: false},
-    // function wouldn't subtract pills for the first date
+    // function wouldn't subtract pills for the first day
     const subtractOrNot = ifElseDoNothing(carriedMinusFirstDayCalculation)(isSubtractingFirstDay)
 
     const calculateDate = pipe(

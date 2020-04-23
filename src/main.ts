@@ -21,7 +21,7 @@ function calculateIntakeEndDate(intakes: IIntake[], stock: number,
     }
 
     if (isWeekDaysAllFalse) {
-        throw new Error('[calculateIntakeEndDate]: you should specify at least one day as true');
+        throw new Error('[calculateIntakeEndDate]: you must specify at least one day as true');
     }
 
     const generatedWeekDays = weekDays || getWeekDays(frequencies);

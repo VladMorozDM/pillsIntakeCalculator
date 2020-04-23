@@ -1,6 +1,7 @@
 import { IWeekDays, frequencies, weekDaysSignature } from '../interfaces';
 import { createNextToggle, createNextTrue, createNextWeekDay } from './utilities';
 
+// it just works
 const weekDays: weekDaysSignature = dayIndex => daysGenerator => valueGen => {
     const nextWeekDay = daysGenerator(dayIndex);
     const nextValue = valueGen();
